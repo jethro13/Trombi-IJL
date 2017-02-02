@@ -1,246 +1,275 @@
 .top {
-  width: 100vw;
-  height: 20vh;
-  background-color: black;
-  font-size: 600%;
-  align-items: center;
-  justify-content: center;
+    width: 100vw;
+    height: 20vh;
+    background-color: black;
+    font-size: 600%;
+    align-items: center;
+    justify-content: center;
 }
-.htop{
-  color: rgb(74, 175, 172);
+
+.htop {
+    color: rgb(74, 175, 172);
 }
+
 .item {
-  border: 2px solid black;
-  flex:none;
-  padding-top: 10px;
-  background-color: white;
-  border-radius: 10px;
-  text-align: center;
+    /*border: 2px solid black; */
+    flex: none;
+    /* padding-top: 10px; */
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: center;
 }
+
 .item h1 {
-  font-size: 1.2em;
+    font-size: 1.2em;
 }
 
 img {
-  display: block;
-  margin: auto;
-  border: 1px solid black;
-  border-radius: 10px;
+    display: block;
+    margin: auto;
+    border-radius: 10px;
 }
+
 .container {
-  border-radius: 10px;
-  margin: auto;
-  margin-top: 50px;
-  width:calc(1400px - 4px);
-  justify-content: center;
-  border: 4px solid black;
-  justify-content: space-around;
-  background-color: rgb(74, 175, 172);
-  font-family: fantasy;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 50px;
+    width: calc(1400px - 4px);
+    justify-content: center;
+    /* border: 4px solid black; */
+    justify-content: space-around;
+    /* font-family: fantasy;*/
 }
-.item:hover {
-  animation-name: ShineAnimation;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-}
+
 h1, p {
-  text-align: center;
-  margin: 0;
+    text-align: center;
+    margin: 0;
 }
+
+
 /* BOUTON SOCIAUX */
+
 .social {
-  justify-content: center;
-  background-color: rgb(23, 52, 201);
+    justify-content: center;
 }
+
 .twitter {
-  width: 64px;
-  height: 64px;
-  background-image: url("images/twitter_blue.png");
+    width: 64px;
+    height: 64px;
+    background-image: url("images/twitter_blue.png");
 }
+
 .twitter:hover {
-  transform:rotate(360deg);
-  transition:3s;
-  background-image: url("images/twitter_gray.png");
+    transition: .5s;
+    background-image: url("images/twitter_gray.png");
 }
+
 .mail {
-  width: 64px;
-  height: 64px;
-  background-image: url("images/mail_black.png");
+    width: 64px;
+    height: 64px;
+    background-image: url("images/mail_black.png");
 }
+
 .mail:hover {
-  transform:rotate(360deg);
-  transition:3s;
-  background-image: url("images/mail_white.png");
+    transition: .5s;
+    background-image: url("images/mail_white.png");
 }
+
 .github {
-  width: 64px;
-  height: 64px;
-  background-image: url("images/github_black.png");
+    width: 64px;
+    height: 64px;
+    background-image: url("images/github_black.png");
 }
-.github:hover{
-  transform:rotate(360deg);
-  transition:3s;
-  background-image: url("images/github_gray.png");
+
+.github:hover {
+    transition: .5s;
+    background-image: url("images/github_gray.png");
 }
+
 .linkedin {
-  
-  width: 64px;
-  height: 64px;
-  background-image: url("images/linkedin_blue.png");
+    width: 64px;
+    height: 64px;
+    background-image: url("images/linkedin_blue.png");
 }
+
 .linkedin:hover {
-  transform:rotate(360deg);
-  transition:3s;
-  background-image: url("images/linkedin_gray.png");
+    transition: .5s;
+    background-image: url("images/linkedin_gray.png");
 }
+
 .comp {
-  margin: 3px;
-  justify-content: space-between;
-  color:white;
-  font-family:impact;
-  font-weight:bold;
-  font-size:0.9em;
+    justify-content: space-between;
+    color: white;
+    font-family: impact;
+    font-weight: bold;
+    font-size: 0.9em;
+    padding: 20px;
 }
+
 .lang {
-  border: 1px solid black;
-  border-radius: 5px;
+    border-radius: 5px;
+    padding: .3em;
+    margin-right: 10px;
 }
+
 .php {
-  background-color: rgb(235, 54, 54);
+    background-color: rgb(235, 54, 54);
 }
+
 .js {
-  background-color: rgb(66, 233, 38);
+    background-color: rgb(66, 233, 38);
 }
 
 .html5 {
-  background-color: rgb(232, 224, 41);
+    background-color: rgb(232, 224, 41);
 }
+
 .langc {
-  background-color: rgb(5, 208, 93);
+    background-color: rgb(5, 208, 93);
 }
+
 .css3 {
-  background-color: rgb(128, 11, 57);
+    background-color: rgb(128, 11, 57);
 }
 
 
 /*valeur par défaut*/
-.btn {
-  margin: auto;
-  width: 90%;
-  border-radius: 5px;
-  background-color: rgb(0, 139, 143);
-  cursor: pointer;
-  display: block;
-}
-.btn:hover {
-  background-color: rgb(15, 84, 55);
-}
-/*la version personnalisée*/
-.download {
-  /*contour*/
-  border: 2px solid #3498DB;
-  padding: 30px;
-  /*l'autre couleur du background*/
 
-  border-bottom: 5px solid #2980B9;
-  /*police*/
-  text-transform: uppercase;
-  text-shadow: 0px 2px #2980B9;
-  color: #fff;
+.btn {
+    margin: auto;
+    width: 90%;
+    border-radius: 5px;
+    background-color: rgb(0, 139, 143);
+    cursor: pointer;
+    display: block;
+}
+
+.btn:hover {
+    background-color: rgb(15, 84, 55);
+}
+
+
+/*la version personnalisée*/
+
+.download {
+    /* border: 2px solid transparent; */
+    padding: 20px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 .download:hover {
+  text-shadow: 0px 2px #2980B9;
   cursor: pointer;
   text-decoration: none;
+  transition: all .2s;
 }
+
 .margintb {
-  margin-top: 10px;
-  margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.margint{
-  margin-top: 10px;
+
+.margint {
+    margin-top: 10px;
 }
+
 
 /* ANIMATION */
-.descr {
 
-    animation: fadein 5s;
-    -moz-animation: fadein 5s; /* Firefox */
-    -webkit-animation: fadein 5s; /* Safari et Chrome */
-    -o-animation: fadein 5wqsxerd s; /* Opera */
+.descr {
+    animation: fadein 1s;
+    -moz-animation: fadein 1s;
+    /* Firefox */
+    -webkit-animation: fadein 1s;
+    /* Safari et Chrome */
+    -o-animation: fadein 1s;
+    /* Opera */
 }
+
 @keyframes fadein {
     from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-moz-keyframes fadein { /* sur Firefox */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-webkit-keyframes fadein { /* sur Safari et Chrome */
-    from {
-        opacity:0;
-    }
-    to {
-        opacity:1;
-    }
-}
-@-o-keyframes fadein { /* sur Opera */
-    from {
-        opacity:0;
+        opacity: 0;
     }
     to {
         opacity: 1;
     }
 }
+
+@-moz-keyframes fadein {
+    /* sur Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    /* sur Safari et Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    /* sur Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 /* RESPONSIVE */
+
 @media (max-width: 1530px) {
-  .container {
-    width:calc(1200px - 8px);
-  }
+    .container {
+        width: calc(1200px - 8px);
+    }
 }
+
 @media (max-width: 1200px) {
-  .container {
-    width:calc(1000px - 8px);
-  }
+    .container {
+        width: calc(1000px - 8px);
+    }
 }
+
 @media (max-width: 1000px) {
-  .container {
-    width:calc(800px - 8px);
-  }
+    .container {
+        width: calc(800px - 8px);
+    }
 }
+
 @media (max-width: 900px) {
-  .container {
-    width:calc(700px - 8px);
-  }
-  .top {
-    font-size: 300%;
-  }
+    .container {
+        width: calc(700px - 8px);
+    }
+    .top {
+        font-size: 300%;
+    }
 }
 
 @media (max-width: 699px) {
-  .container {
-    width:calc(100% - 8px);
-  }
-  .item {
-    width:calc(100% - 4px);
-  }
-  .top {
-    font-size: 300%;
-  }
+    .container {
+        width: calc(100% - 8px);
+    }
+    .item {
+        width: calc(100% - 4px);
+    }
+    .top {
+        font-size: 300%;
+    }
 }
 
-
-@-webkit-keyframes ShineAnimation{
+@-webkit-keyframes ShineAnimation {
     from {
         background-color: #cccccc
     }
